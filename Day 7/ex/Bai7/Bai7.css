@@ -1,0 +1,16 @@
+.bluecolor-underline{
+    color: blue;
+    text-decoration: underline blue;
+}
+.bold{
+    font-weight: bold;
+}
+.text-indent{
+    text-indent: 2rem;
+}
+.no-margin{
+    margin: 0px 0px 0px 0px;
+}
+.p-small{
+    font-size: small;
+}
