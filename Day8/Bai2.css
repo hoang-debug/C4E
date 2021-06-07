@@ -1,0 +1,70 @@
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    background-color: rosybrown;
+    font-weight: bold;
+}
+.item-menu{
+    position: relative;
+}
+.sub-menu{
+    display: none;
+    position: absolute;
+    background-color: rosybrown;
+    top: 29px;
+    left: 0px;
+}
+.item-menu:hover .sub-menu{
+    display: block;
+}
+.sub-menu > div:hover{
+    background-color: seagreen;
+    color:seashell;
+}
+.item4{
+    position: relative;
+    padding: 3px 35px 3px 35px;
+}
+.submenu-item4{
+    display: none;
+    position: absolute;
+    background-color:rosybrown;
+    top: 0px;
+    left: 125px;
+}
+.submenu-item4 > div:hover{
+    background-color: seagreen;
+    color:seashell;
+}
+.item4:hover .submenu-item4{
+    display: block;
+    color: black;
+}
+#hover{
+    padding: 3px 35px 3px 35px;
+}
+#hover:hover{
+    background-color: seagreen;
+    color:seashell;
+}
+.submenu-item4 > div{
+    padding:3px 35px 3px 35px;
+    background-color: rosybrown;
+}
+#item4Expand{
+    position: relative;
+}
+#submenu-item4Expand{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 120px;
+    background-color: rosybrown;
+}
+#submenu-item4Expand div{
+    padding:3px 35px 3px 35px;
+    color: black;
+}
+#item4Expand:hover #submenu-item4Expand{
+    display: inline-block;
+    }
