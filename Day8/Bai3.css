@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+.header{
+    padding: 80px;
+    text-align: center;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+}
+.navbar{
+    display: flex;
+    padding: 0px;
+    background-color: #333;
+}
+.navbar a{
+    color: whitesmoke;
+    display: flex;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+.navbar a.last{
+    display: flex;
+}
+.navbar a:hover{
+    background-color: whitesmoke;
+    color: #333;
+}
