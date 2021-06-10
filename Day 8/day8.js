@@ -1,0 +1,3 @@
+function oddNum(arr){
+    
+}
