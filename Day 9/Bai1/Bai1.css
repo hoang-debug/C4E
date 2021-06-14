@@ -1,0 +1,15 @@
+form {
+    display: flex;
+    justify-content: center;
+    padding: 120px;
+}
+input {
+    text-align: center;
+    width: 1.5rem;
+    border: none;
+}
+button {
+    font-weight: bold;
+    text-align: center;
+    border: none;
+}
