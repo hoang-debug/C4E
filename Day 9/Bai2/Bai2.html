@@ -9,7 +9,8 @@
 <body>
     <form action="#">
         <input type="number" id="setCount" value="5">
-        <button onclick="startCountDown()" id="start">START</button>
+        <button onclick="startCountDown(setCountVal)" id="start">START</button>
+        <button onclick="reset">RESET</button>
     </form>
     <div id="countDown">
     </div>
