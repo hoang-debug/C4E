@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 33.33%; /* IE10 */
+  flex: 33.33%;
+  max-width: 33.33%;
+  padding: 0 10px;
+}
+
+.column img {
+  margin-top: 16px;
+  vertical-align: middle;
+  width: 100%;
+}
